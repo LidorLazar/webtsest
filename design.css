@@ -31,24 +31,24 @@ span{
     color: #ea1538;
 }
 
-nav ul li{
+.nav ul li{
     list-style-type: none;
     display: inline-block;
     padding: 10px 20px;
 }
 
-nav ul li a{
+.nav ul li a{
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
-nav ul li a:hover{
+.nav ul li a:hover{
     color: #ea1538;
     transition: .3s;
 }
 
-button{
+.button{
     border: none;
     background:#ea1538;
     padding:12px 30px ;
@@ -59,12 +59,12 @@ button{
     transition: .4s;
 }
 
-button:hover{
+.button:hover{
     transform: scale(1.2);
     cursor: pointer;
 }
 
-footer{
+.footer{
     background-color: black;
     align-items: center;
     display: flex;
@@ -75,7 +75,7 @@ footer{
 
 }
 
-footer ul li{
+.footer ul li{
     color: white;
     list-style-type: none;
     display: inline-block;
@@ -83,18 +83,18 @@ footer ul li{
     font-weight: bold;
 }
 
-footer ul li a{
+.footer ul li a{
     color: white;
     font-family:'Josefin Sans', sans-serif;
     font-size: 20px;
 }
 
-footer ul li a:hover{
+.footer ul li a:hover{
     color:#ea1538;
     transition: .3s;
 }
 
-h1{
+.h1{
     color: #ea1538;
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
@@ -103,7 +103,7 @@ h1{
     transform: translateY(150%);
 }
 
-p{
+.p{
     color: #ea1538;
     font-family:'Josefin Sans', sans-serif; 
     text-align: center;
