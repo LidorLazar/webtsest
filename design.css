@@ -164,18 +164,23 @@ h1 {
 .navbar-toggle {
   display: none;
 }
-@media screen and (max-width: 769px) {
-  .logo,
-  span {
-    font-size: smaller;
-  }
-  .navbar ul {
-    display: inline;
-    font-size: 5px;
-  }
-  .Subscribe {
-    display: none;
-  }
+
+@media (max-width: 728px){
+    .logo , span{
+        width: 100%;
+    }
+
+    .Subscribe{
+        display: none;
+    }
+    .navbar ul li a{
+        display: none;
+    }
+    .navbar-toggle{
+        color: rgb(255, 255, 255);
+        display: flex;
 
 
+        
+    }
 }
